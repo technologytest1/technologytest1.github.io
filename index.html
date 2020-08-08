@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========== Page Title ========== -->
+    <title>Ether Bank : Dividend Paying DeFi/DApp for Investors &amp; Holders</title>
+
+    <!-- ========== Meta Tags ========== -->
+    <meta name="description" content="Ether Bank, the most powerful, highly secure and transparent distributed finance application (DeFi / DApp) which allows investors to earn Ethereum in the form of dividend.">
+    <meta name="keywords" content="Ether Bank, ethereum defi, ethereum dapp, ethereum investment, ethereum Dividend">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="refresh" content="60" />
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5/html5shiv.min.js"></script>
+      <script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
+    <!-- ========== Google Fonts ========== -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap" rel="stylesheet">
+	
+	<!--<script src="assets/js/web3.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.9/web3.js"></script>
+    <script src="https://cdn.tutorialjinni.com/bignumber.js/9.0.0/bignumber.js"></script>
+	<script src="assets/js/etherbank.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172316469-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-172316469-1');
+	</script>
+</head>
+
+<body onload="pageLoad()">
+    <!-- Preloader Start -->
+    <div class="se-pre-con"></div>
+    <!-- Preloader Ends -->
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default navbar-fixed dark no-background bootsnav">
+
+            <div class="container">
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#home">
+                        <img src="assets/img/etherbank.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#exchange">Exchange</a>
+                        </li>
+                        <li>
+                            <a href="#guide">Guide</a>
+                        </li>
+                        <li>
+                            <a href="https://etherscan.io/address/0x815ff5e32f974862839c56f69cfd190f10e262f6" target="_blank">Verified Contract</a>
+                        </li>
+                        <li>
+                            <a href="http://etherbank.online/" target="_blank">BackUp Exchange</a>
+                        </li>
+                        <li>
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#community">Community</a>
+                        </li>
+						<li>
+                            <a href="https://t.me/EtherBankApp" target="_blank"><img width="30px" height="30px" src="assets/img/icon/telegram.png" /></a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Banner 
+    ============================================= -->
+    <div class="banner-area btn-video shape-right top-pad-50 bg-gray text-combo" id="home">
+        <div class="item">
+            <div class="box-table">
+                <div class="box-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="double-items">
+                                <div class="col-lg-7 info">
+                                    <h2 class="wow fadeInDown" data-wow-duration="1s">Ether Bank - DeFi/DApp</h2>
+                                    <p class="wow fadeInUp" data-wow-duration="1.5s">
+                                        The most powerful, highly secure and transparent distributed finance application (DeFi/DAPP) which allows investors to earn Ethereum in the form of dividend and also through referral bonus when successive investors invest in the Ether Bank system.
+                                    </p>
+                                    <p class="wow fadeInUp" data-wow-duration="1.5s">
+										<ul style="list-style-type:circle">
+											<li>On every buy or sell order <b>10% fee will be deducted as network fee</b> which will be distributed amoung EBANK holders in the <b>form of Ethereum as dividend</b>.</li>
+											<li>For every EBANK token buy or sell order EBANK Price will <b>increase (on buy)/ decrease (on sell) by 0.00000001 ETH</b></li>
+											<li>For every referral user will receive <b>33% of network fees as referral benefits in the form of Ethereum</b>.</li>
+											<li>All Ethereum send to Smart contract <b>get locked in smart contract</b>. Hence <b>you can sell your token anytime without fear of buyers</b></li>
+										</ul>
+                                    </p>
+                                </div>
+                                <div class="col-lg-5 thumb max-right wow fadeInDown" data-wow-duration="1s">
+                                    <img class="shape-animated" src="assets/img/illustration/13.png" alt="Thumb">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Start Why Chose Us
+    ============================================= -->
+    <div class="choseus-area default-padding-top" id="exchange">
+        <div class="container">
+            <div class="choseus-box">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="site-heading text-center">
+                            <h4>Exchange / DeFi Interface</h4>
+                            <h2>
+                                Decentralized, Highly Secure, Transparent &amp; Verified Ethereum Smart Contract
+                            </h2>
+                            <h5>
+                                Contract Address: <a href="https://etherscan.io/address/0x815ff5e32f974862839c56f69cfd190f10e262f6" target="_blank">0x815ff5e32f974862839c56f69cfd190f10e262f6</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 info">
+                        <a id="hplMetaMask" href="javascript:enableWeb3Access();" class="btn circle btn-md btn-gradient wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Connect to MetaMask <img src="assets\img\MetaMask.png" /></a>
+                        <h4></h4>
+                        <h5 id="hplWalletAddressText">Wallet Address</h5>
+                        <h7 id="hplWalletAddress" style="font-weight:bold"></h7>
+                        <h4></h4>
+                        <h5 id="hplReferralAddressText">Referral Address</h5>
+                        <h7 style="word-break: break-all;"><a id="hplReferralAddress" style="font-weight:bold" href=""></a></h7>
+                        <br />
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="skill-items">
+                            <!-- Progress Bar Start -->
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Contract Balance <span id="spnContractBalance" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Buy Price <span id="spnBuyPrice" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Dividends <span id="spnDividends" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">EBANK Balance <span id="spnEBANKBalance" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <!-- End Progressbar -->
+                        </div>
+                        <div><small>* EBANK Balance Value Shown is Calculated Based On Current Sell Price - 10% Network fees on Sell</small></div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="skill-items">
+                            <!-- Progress Bar Start -->
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Total EBANK <span id="spnTotalEBANK" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Sell Price <span id="spnSellPrice" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Referral Dividends <span id="spnReferralDividends" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress-box">
+                                <h6 style="font-weight:bold">Combined Dividends <span id="spnCombinedDividends" class="float-right"></span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <!-- End Progressbar -->
+                        </div>
+                        <div><small>* Ethereum USD Rates are taken from CoinGecko</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Why Chose Us -->
+
+    <!-- Start Services List
+    ============================================= -->
+    <div class="services-list-area default-padding-bottom pt-5">
+        <div class="container">
+            <div class="services-list-items">
+                <div class="row align-center">
+                    <div class="col-lg-5 thumb">
+                        <img src="assets/img/illustration/14.png" alt="Thumb">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <!--<div class="col-lg-6 col-md-6 single-item">
+                                <input type="number" id="txtBuy" class="form-control" placeholder="Amount in ETH">
+                            </div>
+                            <div class="col-lg-6 col-md-6 single-item">
+                                <input type="number" id="txtSell" class="form-control" placeholder="Amount in EBANK Token">
+                            </div>-->
+                            <div class="col-lg-6 col-md-6 single-item" id="divBuyToken">
+                                <input type="number" id="txtBuy" class="form-control" placeholder="Amount in ETH"><br />
+                                <a href="javascript: buyToken();"><i class="fas fa-cart-plus"></i> <span> Buy Token</span></a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 single-item" id="divSellToken">
+                                <input type="number" id="txtSell" class="form-control" placeholder="Amount in EBANK Token"><br/>
+                                <a href="javascript: sellToken();"><i class="fas fa-cart-arrow-down"></i><span> Sell Token</span></a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 single-item" id="divReinvestDividend">
+                                <a href="javascript: reinvest();"><i class="fas fa-plus-circle"></i> <span> Reinvest ETH/Dividend</span></a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 single-item" id="divWithdrawDividend">
+                                <a href="javascript: withdraw();"><i class="fas fa-minus-circle"></i> <span> Withdraw ETH/Dividend</span></a>
+                            </div>                            
+                            <div class="col-lg-6 col-md-6 single-item">
+                                <input type="text" id="txtETHAddress" class="form-control" minlength="42" maxlength="42" placeholder="Ethereum Address">
+                            </div>
+                            <div class="col-lg-6 col-md-6 single-item">
+                                <input type="number" id="txtEBANK" class="form-control" placeholder="Amount in EBANK Token">
+                            </div>
+                            <div class="col-lg-12 col-md-6 single-item" id="divTransferTokens">
+                                <a href="javascript: transferToken();"><i class="fas fa-rocket"></i> <span> Transfer Tokens</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services List -->
+
+    <!-- Start Services Area
+    ============================================= -->
+    <div class="services-area bg-gray left-border default-padding bottom-less" id="guide">
+
+        <!-- Shape Fixed Rotation -->
+        <div class="shape-fixed animation-rotation">
+            <img src="assets/img/round-shappe.png" alt="Thumb">
+        </div>
+        <!-- Dhape Fixed Rotation -->
+
+        <div class="container">
+            <h1>Guide</h1>
+            <div class="heading-left">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4>1. MetaMask</h4>
+                        <p>First of all, install web3 client like MetaMask from <a href="https://metamask.io/">here</a> and put some Ether in it.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>2. Buy EBANK Tokens</h4>
+                        <p>To buy EBANK Token, enter amount of Ether you want to invest and simply click the "Buy Tokens" button. When confirming the transaction on MetaMask, be sure to use a high enough gas price so that the price doesn't change drastically while the transaction is in progress. Buying coins will increase both the Buy Price and Sell Price with 0.00000001 ETH per bought coin once the transaction is complete.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>3. Checking Balance</h4>
+                        <p>Under EBANK Balance you can see how many EBANK you currently own. Note that when cashing out coins, the Buy Price and Sell Price drop afterwards, decreasing the value of your (and everyone else's) coins by 0.00000001 ETH per coin.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>4. Earning Dividends</h4>
+                        <p>Every time EBANK are bought or sold, a percentage of the fee from the bought/sold coins will be divided under the current EBANK holders (Dividends).</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>5. Sell Tokens</h4>
+                        <p>You can move your tokens into Dividends which then is stored as Ether. To do this enter amount and click on the "Sell Tokens" button - and your tokens will be transferred into Ether based upon the current sell price.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>6. ReInvest Dividend in Tokens</h4>
+                        <p>You can also use your dividends to immediately purchase more EBANK tokens by selecting "ReInvest Dividends".</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>7. Cash Out / Transfer EBANK</h4>
+                        <p>To cash out your EBANK, enter amount of token and click the "Withdraw" button and follow the prompts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services Area -->
+
+    <!-- Star Faq
+    ============================================= -->
+    <div class="faq-area default-padding bg-gray" id="faq">
+        <div class="container">
+            <div class="faq-items">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="faq-content">
+                            <h2>Most Important Information</h2>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h4 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            OPEN SOURCE DEFI/DAPP
+                                        </h4>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                Ether Bank is most powerful, highly secure and transparent distributed finance application (DeFi/DAPP) Smart contract on the on the Ethereum blockchain that is fully transparent and open source. The code is backed by the Ethereum blockchain and verified; feel free to take a look at the divine mathematics and logic, the code is open for all to see.  So, as long as the Ethereum network exists so will the Ether Bank DeFi/Dapp.  Every transaction is handled by a piece of un-changeable blockchain programming known as a smart-contract.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            SUPPLY = VALUE
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                <b>For each EBANK token added or removed from circulation the price of the next token increases or decreases automatically by a fractional amount of ETH (about .0000001 eth).</b>
+                                                <br />When people buy, your EBANK tokens are worth slightly more, when they sell, slightly less. This is managed and calculated by the smart contract directly.
+                                                <br />Ether Bank smart contract will manage the economy but cannot affect the price of the token. That is locked in the code and set on the blockchain, the price will rise and the price will fall, those who trust in Ether Bank the longest will be rewarded the most.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            MINING?
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                The Token's namesake is a feature we lovingly call the <b>"Proof of Weak Hands Ethereum mining algorithm"</b>
+                                                Simply put, when someone chooses to buy, sell or trade tokens, a 10% transaction fee is applied. That fee, proof of that trader's weak hands, is split across all tokens currently in circulation as a reward to those holding them. Buyers' newly-purchased tokens are added to circulation before the fee is allocated.
+                                                <br />Anyone who holds tokens can withdraw their share of those earnings anytime, in ETH from the smart-contract pool, no fee attached.
+                                                <br />You see that cute snek? He snatches up rewards for you on every trade, No matter what the token price does!.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            WITHDRAW ANYTIME?
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                That Smart contract (your new robo accounting buddy) holds all ethereum ever put into purchasing these tokens, and <b>will gleefully give you all ethereum you are owed</b> whenever you want to withdraw , or dump your tokens. You weak handed fool.
+                                                <br />The robot is also indifferent to the plight of man, cannot be stopped, shut down, or ended without the death of the ethereum network itself
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFive">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            REFERRAL BENEFITS?
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                In addition, if you hold just 1 token you can earn instant ETH rewards for your good referral benefits for spreading the word about Ether Bank.
+                                                <br />We provide you a unique link to our website that Ether Bank recognizes, anyone buying into Ether Bank via your link has 33% of all fees they would otherwise pay into Ether Bank, directed to you instead as instant rewards of Ethereum gains.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingSix">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            SPARKNOTES?
+                                        </h4>
+                                    </div>
+                                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                <b>Managed by a smart contract entirely</b><br />
+                                                •	no human involvement in managing the ethereum, at all. Period.<br />
+                                                <b>Automatic pricing</b><br />
+                                                •	Value is directly related to how many tokens exist at any time.<br />
+                                                <b>Volume based earning</b><br />
+                                                •	10% of all volume is taken as fees, and is automatically split out as Eth to all token holders.<br />
+                                                <b>Active-income Staking</b><br />
+                                                •	Masternode system allows you to recruit more and get instant ETH rewards. Plus everyone gains from the volume!<br />
+                                                <b>Not a "Concept" token</b><br />
+                                                •	Each token has intrinsic value, as every token is backed by the eth already in the contract (try to find another crypto that does this).<br />
+                                                <b>Serious in all the wrong ways.</b><br />
+                                                •	See cute snek mascot representing your financial future.<br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="thumb wow fadeInLeft" data-wow-delay="0.5s">
+                            <img src="assets/img/illustration/9.png" alt="Thumb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Faq -->
+
+    <!-- Star Footer
+    ============================================= -->
+    <footer id="community">
+        <div class="container">
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="equal-height col-lg-8 col-md-6 item">
+                        <div class="f-item about">
+                            <img src="assets/img/etherbank.png" alt="Logo">
+                            <p>
+                                The most powerful, highly secure and transparent distributed finance application (DeFi/DAPP) which allows investors to earn Ethereum in the form of dividend and also through referral bonus when successive investors invest in the Ether Bank system.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="equal-height col-lg-4 col-md-6 item">
+                        <div class="f-item contact">
+                            <h4 class="widget-title">Contact Info</h4>
+                            <div class="address">
+                                <ul>
+                                    <li>
+                                        <strong>Email:</strong> <a href="mailto:danielmarcdev@gmail.com">danielmarcdev@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="social">
+                                <li class="twitter">
+                                    <a href="https://twitter.com/EtherBankApp" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/EtherBankApp" target="_blank"><img src="assets/img/icon/telegram.png" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>&copy; Copyright 2020. All Rights Reserved by <a href="#home">Ether Bank(DeFi/DApp)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Shape -->
+        <div class="footer-shape" style="background-image: url(assets/img/shape/1.svg);"></div>
+        <!-- End Shape -->
+    </footer>
+    <!-- End Footer-->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/equal-height.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
